@@ -1,0 +1,53 @@
+---
+title:
+description: 'Nous concevons le prototype votre application Web'
+twitter_card_img: ''
+---
+
+nav.navbar.is-info
+  .navbar-brand
+    = link_to '#', class: 'navbar-item' do
+      = image_tag "logo.png"
+  .navbar-menu
+    .navbar-start
+    .navbar-end
+      = link_to 'Qui sommes nous ?', '#', class: 'navbar-item'
+      = link_to 'Contact', '#', class: 'navbar-item'
+
+.hero
+  .container
+    .has-text-centered
+      = image_tag 'logo-white.png', width: '300'
+
+    h2.title.is-2.has-text-white-ter.has-text-centered.has-text-weight-light
+      | Récolté d'cheu nous pour t'chez vous
+      / | Maraîchage, arboriculture, apiculture
+
+    br
+    .has-text-centered
+      = link_to 'Commander un panier', '#', class: 'button is-primary is-large'
+
+br
+br
+.container
+  .columns
+    .column
+      h2.title.is-2.has-text-centered
+        span> = image_tag "marai.png", width: '64'
+        | Maraîchage
+      p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      = image_tag 'planter.jpg', class: 'image has-padding'
+
+    .column
+      h2.title.is-2.has-text-centered
+        span> = image_tag "arbo.png", width: '64'
+        | Arboriculture
+      p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      = image_tag 'planter.jpg', class: 'image has-padding'
+
+    .column
+      h2.title.is-2.has-text-centered
+        span> = image_tag "bee.png", width: '64'
+        | Apiculture
+      p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      = image_tag 'apiculture.jpg', class: 'image has-padding'

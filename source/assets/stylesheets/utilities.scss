@@ -1,0 +1,21 @@
+body{
+  // background-color: #CDB696;
+  min-height: 100vh;
+}
+
+.hero{
+  padding-top: 10%;
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), image-url("brouette.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 70vh;
+}
+
+.is-25vh{
+  height: 25vh;
+}
+
+.has-padding{
+  padding: 10px;
+}
